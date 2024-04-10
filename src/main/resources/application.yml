@@ -11,7 +11,7 @@ management:
       exposure:
         include: "*"
   health:
-    readinessstate:
+    readiness-state:
       enabled: true
     livenessstate:
       enabled: true
