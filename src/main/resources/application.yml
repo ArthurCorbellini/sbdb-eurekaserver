@@ -19,3 +19,8 @@ management:
     health:
       probes:
         enabled: true
+
+# config to remove a microservice of eureka list if this microservice is down
+# eureka:
+#   server:
+#     enable-self-preservation: false
