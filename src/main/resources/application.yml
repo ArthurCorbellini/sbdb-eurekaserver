@@ -3,7 +3,7 @@ spring:
   application:
     name: "eurekaserver" # need to have the same name of the .yml file in the sbdb-private repo.
   config:
-    import: "optional:configserver:http://localhost:8888/"
+    import: "optional:configserver:http://localhost:8071/"
 
 management:
   endpoints:
